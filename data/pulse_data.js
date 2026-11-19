@@ -1,8 +1,8 @@
 window.__AI_PULSE_DATA__ = {
   "meta": {
-    "generated_at_iso": "2026-11-19T21:40:39.526513+05:30",
-    "generated_at_display": "19 Nov 2026, 09:40 PM IST",
-    "synthesis_mode": "Gemini Free API (gemini-3-flash-preview LIVE)",
+    "generated_at_iso": "2026-11-19T21:46:43.154057+05:30",
+    "generated_at_display": "19 Nov 2026, 09:46 PM IST",
+    "synthesis_mode": "Rule-Based Live Synthesizer (Gemini note: HTTP Error 404: Not Found)",
     "sources_status": {
       "amfi_mfapi": "3/3 live",
       "stocks_yahoo": "8/8 live",
@@ -12,104 +12,122 @@ window.__AI_PULSE_DATA__ = {
     }
   },
   "status_bar": {
-    "level": "AMBER",
-    "badge": "Model Shifts & Volatility",
-    "title": "AI Model Wars & Infrastructure Resilience",
-    "subtitle": "Anthropic prices IPO and Google launches Gemini 4 Neon as Microsoft faces service disruptions and repo removals.",
-    "sip_action": "Maintain autopilot; the slight daily dip in Mid Cap and Nifty 500 NAVs provides a standard accumulation window."
+    "level": "BLUE",
+    "badge": "SIP DISCOUNT WINDOW",
+    "title": "US Tech / AI Pullback Detected — Monthly SIPs Buy Cheaper Units",
+    "subtitle": "Nasdaq 30d -8.01% / NVDA 30d -29.61%. Headlines look noisy, while Indian SIPs stay steady (30d avg +4.36%).",
+    "sip_action": "Keep Nifty 500 (40%), PPFAS Flexi Cap (30%), and Mid Cap (30%) strictly on autopilot. Red weeks improve rupee-cost averaging."
   },
-  "headline_banner": "Anthropic's IPO pricing and Google's Gemini 4 Neon launch signal a new phase of model competition despite hyperscaler service outages.",
+  "headline_banner": "33 live tech/AI signals scanned • AMFI NAVs & global bellwethers synced.",
   "curated_stories": [
     {
-      "title": "Introducing Gemini 4 Neon",
+      "title": "Gemini 4 Neon",
       "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
-      "severity": "shift",
-      "summary": "Google has launched Gemini 4 Neon, a new high-performance model currently ranked #3 on the intelligence index. This release aims to recapture market share from Anthropic and OpenAI in the enterprise assistant space.",
-      "stock_ripple": "GOOGL saw a 2.13% daily gain as markets reacted positively to the model's competitive positioning.",
-      "sip_career_note": "For K8s engineers, the integration of 'Tasks' as a free assistant suggests a move toward more automated platform operations.",
+      "severity": "normal",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
       "source": "Hacker News",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
-    },
-    {
-      "title": "Anthropic prices initial public offering",
-      "category": "Models & Open-Weights",
-      "impact_horizon": "Next 30 Days",
-      "severity": "shift",
-      "summary": "Anthropic has officially priced its IPO, capitalizing on its Claude Fable 5.2 Max model currently holding the #1 spot on the intelligence leaderboard. This move marks a significant liquidity event for the AI sector.",
-      "stock_ripple": "The IPO pricing creates a valuation benchmark that may stabilize broader AI infrastructure stocks like NVDA and MSFT.",
-      "sip_career_note": "Increased capital in Anthropic likely accelerates the adoption of Claude-based coding agents in DevOps workflows.",
-      "source": "Hacker News",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "points": 954
     },
     {
       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
       "category": "Chips & China AI",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "Nvidia has altered its revenue reporting for Singapore while total revenues reached a record $104B. Separately, Jensen Huang addressed rumors regarding his potential return following recent resignation speculation.",
-      "stock_ripple": "NVDA is up 1.27% today but remains down nearly 30% over the last 30 days, indicating a period of price consolidation.",
-      "sip_career_note": "Hardware supply chains remain opaque; platform engineers should monitor rack-scale alternatives like Qualcomm's new offering.",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
       "source": "Hacker News",
-      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf"
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "points": 664
     },
     {
-      "title": "Microsoft blames monster email outage on software defect",
+      "title": "Seven new models at scalable price-performance",
+      "category": "Models & Open-Weights",
+      "impact_horizon": "Next 30 Days",
+      "severity": "normal",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
+      "source": "Hacker News",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "points": 584
+    },
+    {
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "category": "Hyperscalers & Deals",
+      "impact_horizon": "Next 30 Days",
+      "severity": "shift",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
+      "source": "Hacker News",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "points": 462
+    },
+    {
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
       "category": "Outages & Layoffs",
       "impact_horizon": "Next 30 Days",
-      "severity": "dip",
-      "summary": "A major Microsoft email outage was traced back to a software defect introduced in a July fix, highlighting risks in hyperscaler update cycles. Concurrently, the ONNX Runtime repository briefly disappeared from GitHub.",
-      "stock_ripple": "MSFT gained 1.4% despite the outage, though the Indian IT index (^CNXIT) fell 1.1% on global service concerns.",
-      "sip_career_note": "This reinforces the need for robust multi-region K8s deployments and local fallback mechanisms for critical SaaS dependencies.",
+      "severity": "shift",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
       "source": "Hacker News",
-      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "points": 445
     },
     {
       "title": "MAI Code 2 and Code 2 Flash",
       "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
-      "severity": "shift",
-      "summary": "Microsoft has introduced MAI Code 2 and a faster Flash variant, specifically optimized for software development and automated coding tasks. These models aim to compete directly with GitHub Copilot's underlying architecture.",
-      "stock_ripple": "Focus on developer productivity tools is keeping MSFT resilient against broader market volatility.",
-      "sip_career_note": "Platform engineers can expect tighter integration of these models into VS Code and Azure Kubernetes Service (AKS) workflows.",
+      "severity": "normal",
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
       "source": "Hacker News",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "points": 421
     },
     {
-      "title": "Qualcomm offers test drive of its rack-scale Nvidia AI challenger",
-      "category": "Hyperscalers & Deals",
+      "title": "Anthropic prices initial public offering",
+      "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "Qualcomm is aggressively entering the data center space with a rack-scale AI solution designed to challenge Nvidia's dominance. This provides hyperscalers with more leverage in hardware procurement.",
-      "stock_ripple": "Increased competition in the chip sector may lead to margin compression for incumbent hardware providers.",
-      "sip_career_note": "Diversification of silicon in the cloud means K8s clusters may soon require more heterogeneous node management.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966"
+      "summary": "Live discussion from Hacker News gaining traction across engineering and tech markets.",
+      "stock_ripple": "Watch NVDA/MSFT/ORCL sympathy moves; Indian IT reacts with a 1-2 day lag.",
+      "sip_career_note": "SIP stays untouched; note platform-engineering & AI reliability takeaways.",
+      "source": "Hacker News",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "points": 365
     }
   ],
   "thirty_day_outlook": {
     "global_tech": {
       "title": "Global AI & Big Tech (30-Day View)",
       "points": [
-        "Anthropic's IPO will likely trigger a re-valuation of the entire 'Magnificent Seven' AI exposure.",
-        "Nvidia (NVDA) is seeking a floor after a 29% monthly drawdown; leadership stability is key.",
-        "Hyperscaler reliability is under scrutiny following Microsoft's 'monster' email outage."
+        "Expect choppy sessions around Nvidia supply/export rumors and Microsoft/Oracle data-center capex headlines.",
+        "Cheaper Chinese open-weight releases (DeepSeek / Qwen) keep compressing raw token prices, shifting value from model APIs to enterprise deployment.",
+        "Watch cloud reliability metrics—major M365/cloud outages push banks toward hybrid resilience."
       ]
     },
     "indian_sips": {
       "title": "Indian Markets & Model SIP Basket",
       "points": [
-        "Nifty 50 (^NSEI) shows strong 11.47% monthly momentum despite daily volatility in tech stocks.",
-        "PPFAS Flexi Cap remains the most stable in the basket with minimal daily NAV fluctuation (-0.15%).",
-        "Edelweiss Mid Cap NAV dip (-1.08%) offers a tactical entry point for long-term SIP compounding."
+        "Motilal Nifty 500 (40%): ₹27.6564 (+6.16% 30d) — anchors the basket to India's broad domestic growth regardless of US chip headlines.",
+        "PPFAS Flexi Cap (30%): ₹94.1452 (+3.59% 30d) — gives controlled Alphabet/Microsoft/Meta exposure plus a ~15-20% cash cushion for dips.",
+        "Edelweiss Mid Cap (30%): ₹126.231 (+3.32% 30d) — if global AI fear pulls mid-caps down over the next 30 days, monthly SIPs automatically accumulate extra units."
       ]
     },
     "k8s_career": {
       "title": "Cloud, Kubernetes & AI Platform Radar",
       "points": [
-        "The disappearance of ONNX Runtime from GitHub highlights the risk of centralized dependency management.",
-        "New coding models (MAI Code 2) suggest a shift toward AI-generated K8s manifests and Helm charts.",
-        "AI-assisted cyberattacks on the European Commission signal a need for enhanced security in cloud-native ingress."
+        "Enterprise financial institutions care less about which closed model leads social media today and more about secure, private VPC inference.",
+        "Open-weight leaders on the AI Leaderboard directly validate running vLLM + KEDA autoscaling on Kubernetes / OpenShift.",
+        "Cloud outages and big-tech restructuring reinforce why owning multi-cluster reliability & ingress/TLS internals creates durable demand."
       ]
     }
   },
@@ -119,8 +137,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "discussion_url": "https://news.ycombinator.com/item?id=50552424",
       "source": "Hacker News",
-      "points": 953,
-      "comments": 732,
+      "points": 954,
+      "comments": 734,
       "published_at": "2026-11-18T21:34:07Z",
       "category": "Models & Open-Weights"
     },
@@ -130,7 +148,7 @@ window.__AI_PULSE_DATA__ = {
       "discussion_url": "https://news.ycombinator.com/item?id=50534631",
       "source": "Hacker News",
       "points": 664,
-      "comments": 295,
+      "comments": 296,
       "published_at": "2026-11-17T17:12:06Z",
       "category": "Chips & China AI"
     },
@@ -179,8 +197,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
       "discussion_url": "https://news.ycombinator.com/item?id=50553843",
       "source": "Hacker News",
-      "points": 364,
-      "comments": 674,
+      "points": 365,
+      "comments": 676,
       "published_at": "2026-11-18T23:30:09Z",
       "category": "Models & Open-Weights"
     },
@@ -230,7 +248,7 @@ window.__AI_PULSE_DATA__ = {
       "discussion_url": "https://news.ycombinator.com/item?id=50559140",
       "source": "Hacker News",
       "points": 94,
-      "comments": 145,
+      "comments": 146,
       "published_at": "2026-11-19T12:17:10Z",
       "category": "Outages & Layoffs"
     }
@@ -435,9 +453,9 @@ window.__AI_PULSE_DATA__ = {
       "symbol": "NVDA",
       "label": "Nvidia",
       "region": "US AI Chips",
-      "price": 152.88,
-      "change_1d_pct": 1.27,
-      "change_30d_pct": -29.58,
+      "price": 152.82,
+      "change_1d_pct": 1.23,
+      "change_30d_pct": -29.61,
       "status": "LIVE",
       "spark": [
         217.09,
@@ -463,16 +481,16 @@ window.__AI_PULSE_DATA__ = {
         156.14,
         155.46,
         150.96,
-        152.88
+        152.82
       ]
     },
     {
       "symbol": "MSFT",
       "label": "Microsoft",
       "region": "US Cloud/AI",
-      "price": 515.42,
-      "change_1d_pct": 1.4,
-      "change_30d_pct": -3.39,
+      "price": 514.43,
+      "change_1d_pct": 1.21,
+      "change_30d_pct": -3.58,
       "status": "LIVE",
       "spark": [
         533.52,
@@ -498,16 +516,16 @@ window.__AI_PULSE_DATA__ = {
         517.99,
         506.24,
         508.29,
-        515.42
+        514.43
       ]
     },
     {
       "symbol": "ORCL",
       "label": "Oracle",
       "region": "US Infra/OCI",
-      "price": 114.42,
-      "change_1d_pct": 0.47,
-      "change_30d_pct": -11.71,
+      "price": 114.48,
+      "change_1d_pct": 0.52,
+      "change_30d_pct": -11.66,
       "status": "LIVE",
       "spark": [
         129.59,
@@ -533,16 +551,16 @@ window.__AI_PULSE_DATA__ = {
         119.09,
         115.0,
         113.89,
-        114.42
+        114.48
       ]
     },
     {
       "symbol": "GOOGL",
       "label": "Alphabet",
       "region": "US AI/PPFAS",
-      "price": 288.45,
-      "change_1d_pct": 2.13,
-      "change_30d_pct": -16.19,
+      "price": 288.15,
+      "change_1d_pct": 2.02,
+      "change_30d_pct": -16.28,
       "status": "LIVE",
       "spark": [
         344.18,
@@ -568,16 +586,16 @@ window.__AI_PULSE_DATA__ = {
         283.72,
         280.2,
         282.44,
-        288.45
+        288.15
       ]
     },
     {
       "symbol": "META",
       "label": "Meta",
       "region": "US Open-AI",
-      "price": 617.68,
-      "change_1d_pct": 0.21,
-      "change_30d_pct": -12.44,
+      "price": 618.57,
+      "change_1d_pct": 0.36,
+      "change_30d_pct": -12.31,
       "status": "LIVE",
       "spark": [
         705.44,
@@ -603,14 +621,14 @@ window.__AI_PULSE_DATA__ = {
         626.41,
         618.87,
         616.38,
-        617.68
+        618.57
       ]
     },
     {
       "symbol": "^NDX",
       "label": "Nasdaq 100",
       "region": "US Tech Index",
-      "price": 27165.02,
+      "price": 27164.02,
       "change_1d_pct": 0.18,
       "change_30d_pct": -8.01,
       "status": "LIVE",
@@ -638,7 +656,7 @@ window.__AI_PULSE_DATA__ = {
         27197.15,
         27001.78,
         27116.26,
-        27165.02
+        27164.02
       ]
     },
     {
