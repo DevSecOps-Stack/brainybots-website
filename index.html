@@ -570,12 +570,11 @@
     <div class="sheet">
       <div class="sheet-handle"></div>
       <h3 id="sheetTitle">⚙️ Owner Sync Settings</h3>
-      <p>On <strong>brainybots.si</strong>, paste your fine-grained GitHub token (<code>Actions: Read &amp; Write</code> on <code>brainybots-website</code>) once to enable 1-tap full cloud sync from this device. Keys stay only in this browser.</p>
+      <p>Paste your fine-grained GitHub token (<code>Actions: Read &amp; Write</code> on <code>brainybots-website</code>) once to enable 1-tap cloud sync from this device. Your token stays only in this browser; Gemini runs securely on the backend.</p>
       <input type="password" id="ghTokenInput" class="field" placeholder="GitHub Sync Token (github_pat_…)" autocomplete="off" />
-      <input type="password" id="keyInput" class="field" placeholder="Optional local GEMINI_API_KEY override" autocomplete="off" />
       <button class="btn-primary" id="runSync" type="button">Save &amp; Run Live Sync</button>
       <div class="btn-row">
-        <button class="btn-ghost" id="clearKey" type="button">Clear saved tokens</button>
+        <button class="btn-ghost" id="clearKey" type="button">Clear saved token</button>
         <button class="btn-ghost" id="closeSheet" type="button">Close</button>
       </div>
       <div class="sync-log" id="syncLog"></div>
@@ -585,7 +584,6 @@
   <script src="./data/pulse_data.js"></script>
   <script>
   (function () {
-    const KEY_STORAGE = "ai_pulse_gemini_key";
     const GH_TOKEN_STORAGE = "ai_pulse_gh_sync_token";
     const CACHE_STORAGE = "ai_pulse_cached_payload_v3";
     const GH_OWNER = "DevSecOps-Stack";
@@ -593,7 +591,6 @@
     const GH_BRANCH = "master";
     const GH_WORKFLOW = "sync_pulse.yml";
     const RAW_JSON_URL = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/data/daily_pulse.json`;
-    const GEMINI_MODELS = ["gemini-3-flash-preview", "gemini-3.8-flash", "gemini-2.5-flash"];
     const FUND_COLORS = { "147625": "#6366f1", "122639": "#ec4899", "140228": "#14b8a6" };
     const ORG_COLORS = { Google: "#4285f4", Anthropic: "#d97706", OpenAI: "#10a37f", xAI: "#0f172a", DeepSeek: "#4f46e5", Alibaba: "#f97316", Meta: "#0866ff", Mistral: "#fa520f", Xiaomi: "#ff6900", "Z.ai": "#7c3aed", "Z AI": "#7c3aed", Moonshot: "#0ea5e9", Kimi: "#0ea5e9" };
     const CAT = {
@@ -834,7 +831,7 @@
     });
 
     /* Live sync sheet + 1-tap realtime sync (Local server.py OR Owner-only GitHub Actions) */
-    const modal = $("modal"), keyInput = $("keyInput"), ghInput = $("ghTokenInput"), log = $("syncLog"), toastEl = $("toast");
+    const modal = $("modal"), ghInput = $("ghTokenInput"), log = $("syncLog"), toastEl = $("toast");
     let toastTimer = null;
     function showToast(msg, ms = 3400) {
       toastEl.textContent = msg;
@@ -845,7 +842,6 @@
 
     $("openSync").addEventListener("click", () => {
       ghInput.value = localStorage.getItem(GH_TOKEN_STORAGE) || "";
-      keyInput.value = localStorage.getItem(KEY_STORAGE) || "";
       log.textContent = "";
       modal.classList.add("open");
     });
@@ -853,12 +849,10 @@
     modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("open"); });
     $("clearKey").addEventListener("click", () => {
       localStorage.removeItem(GH_TOKEN_STORAGE);
-      localStorage.removeItem(KEY_STORAGE);
       localStorage.removeItem(CACHE_STORAGE);
       ghInput.value = "";
-      keyInput.value = "";
-      log.textContent = "Cleared saved tokens & cache.";
-      showToast("Saved tokens cleared");
+      log.textContent = "Cleared saved token & cache.";
+      showToast("Saved token cleared");
     });
 
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -931,10 +925,6 @@
         if (enteredGh) localStorage.setItem(GH_TOKEN_STORAGE, enteredGh);
         const ghToken = enteredGh || localStorage.getItem(GH_TOKEN_STORAGE) || "";
 
-        const enteredKey = keyInput.value.trim();
-        if (enteredKey) localStorage.setItem(KEY_STORAGE, enteredKey);
-        const apiKey = enteredKey || localStorage.getItem(KEY_STORAGE) || "";
-
         // 1. Local server.py path (localhost / LAN IP) — ~18s full server sync
         const isLocal = /^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.)/.test(location.hostname);
         if (location.protocol.startsWith("http") && isLocal) {
@@ -944,7 +934,7 @@
             const resp = await fetch("./api/sync", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ api_key: apiKey }),
+              body: "{}",
             });
             if (resp.ok) {
               const json = await resp.json();
