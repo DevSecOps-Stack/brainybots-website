@@ -1,7 +1,7 @@
 window.__AI_PULSE_DATA__ = {
   "meta": {
-    "generated_at_iso": "2026-11-21T18:20:38.882984+05:30",
-    "generated_at_display": "21 Nov 2026, 06:20 PM IST",
+    "generated_at_iso": "2026-11-22T05:51:18.682895+05:30",
+    "generated_at_display": "22 Nov 2026, 05:51 AM IST",
     "synthesis_mode": "Gemini Free API (gemini-3-flash-preview LIVE)",
     "sources_status": {
       "amfi_mfapi": "3/3 live",
@@ -13,92 +13,92 @@ window.__AI_PULSE_DATA__ = {
   },
   "status_bar": {
     "level": "BLUE",
-    "badge": "Global Tech Correction",
-    "title": "US Tech Volatility vs. Indian Resilience",
-    "subtitle": "Nasdaq erases 2026 gains amid Nvidia probes and Anthropic IPO sell-offs, while Indian indices hold steady.",
-    "sip_action": "Maintain SIP autopilot; the US tech dip provides a lower entry point for the global components of the Flexi Cap fund."
+    "badge": "AI Valuation Reset",
+    "title": "Global Tech Correction vs. Indian Resilience",
+    "subtitle": "US AI stocks face a $4T wipeout while Indian indices and SIP NAVs maintain steady upward momentum.",
+    "sip_action": "Maintain SIP autopilot; the US tech correction provides a valuation reset for the global components within the PPFAS Flexi Cap allocation."
   },
-  "headline_banner": "A sharp US tech sell-off led by Nvidia and Anthropic contrasts with continued momentum in Indian equity markets.",
+  "headline_banner": "A massive $4T AI market wipeout led by Anthropic's IPO bust and Nvidia probes contrasts with a 1.12% gain in the Nifty 50 index.",
   "curated_stories": [
-    {
-      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-      "category": "Chips & China AI",
-      "impact_horizon": "Next 30 Days",
-      "severity": "dip",
-      "summary": "Federal regulators are reportedly investigating Nvidia's accounting practices following its massive revenue growth. This probe coincides with Jensen Huang's recent resignation and potential return to the company.",
-      "stock_ripple": "NVDA shares fell 14%, significantly impacting the Nasdaq and global semiconductor sentiment.",
-      "sip_career_note": "Platform engineers should monitor hardware supply chain stability for GPU-intensive Kubernetes clusters during this period of corporate uncertainty.",
-      "source": "Hacker News",
-      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
-    },
     {
       "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
       "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
       "severity": "dip",
-      "summary": "The Nasdaq has wiped out its yearly gains as market sentiment soured during Anthropic's IPO launch. Investors are reassessing AI valuations amid broader macroeconomic concerns.",
-      "stock_ripple": "The ^NDX dropped over 5%, which may lower the NAV of Indian funds with US tech exposure like PPFAS.",
-      "sip_career_note": "Market corrections often lead to a focus on cost-efficient AI deployment rather than speculative scaling.",
+      "summary": "Anthropic's disappointing IPO performance has triggered a broader market retreat, erasing significant gains across the Nasdaq. This correction reflects growing investor skepticism regarding the immediate monetization of large-scale AI models.",
+      "stock_ripple": "Nasdaq (^NDX) fell 5.61%, dragging down US-heavy tech portfolios and impacting the global portion of flexi-cap funds.",
+      "sip_career_note": "For platform engineers, this market shift emphasizes the need for cost-efficient AI infrastructure over raw model scaling.",
       "source": "Hacker News",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
     },
     {
-      "title": "MAI Code 2 and Code 2 Flash",
-      "category": "Models & Open-Weights",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues",
+      "category": "Chips & China AI",
       "impact_horizon": "Next 30 Days",
-      "severity": "normal",
-      "summary": "Microsoft has released new coding-specific models designed for high-performance and scalable price-points. These models aim to integrate more deeply into developer workflows and IDEs.",
-      "stock_ripple": "MSFT showed relative resilience, falling only 2.7% compared to the broader tech rout.",
-      "sip_career_note": "New coding models suggest a shift toward AI-assisted Kubernetes manifest generation and automated infrastructure-as-code troubleshooting.",
+      "severity": "dip",
+      "summary": "The SEC has launched an investigation into Nvidia's accounting practices following a massive 14% single-day stock drop. This comes amid reports that the company stopped disclosing specific regional sales figures as revenues peaked.",
+      "stock_ripple": "NVDA plummeted 14.01% in a single day, contributing to a 43% decline over the last 30 days.",
+      "sip_career_note": "Hardware supply chain volatility may lead to budget re-evaluations for GPU-intensive Kubernetes clusters.",
       "source": "Hacker News",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
     },
     {
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "title": "Seven new models at scalable price-performance",
       "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
       "severity": "shift",
-      "summary": "Signal is advocating for and implementing technical barriers to prevent AI agents from scraping private user data. This highlights the growing tension between AI utility and data sovereignty.",
-      "stock_ripple": "This regulatory and privacy trend could impact data-heavy platforms like Meta and Google in the long term.",
-      "sip_career_note": "Platform engineers must prioritize zero-trust architectures and data egress controls when deploying AI agents on internal clusters.",
+      "summary": "Microsoft has unveiled seven new AI models at Ignite 2026, focusing on optimizing the ratio between performance and operational cost. This move signals a shift from 'size at all costs' to sustainable enterprise deployment.",
+      "stock_ripple": "MSFT showed relative resilience compared to NVDA, dropping only 2.77% as it pivots toward enterprise utility.",
+      "sip_career_note": "K8s engineers should prepare for a surge in multi-model deployments requiring sophisticated orchestration and cost-tracking.",
       "source": "Hacker News",
-      "url": "https://signal.org/blog/protecting-your-privacy/"
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
     },
     {
-      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-      "category": "Hyperscalers & Deals",
+      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
+      "category": "Outages & Layoffs",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "The popular ONNX Runtime repository briefly became unavailable on GitHub, causing temporary disruption for developers. While likely a technical glitch, it underscores the fragility of open-source dependencies.",
-      "stock_ripple": "Minimal direct stock impact, but highlights operational risks in the AI infrastructure stack.",
-      "sip_career_note": "Ensure local mirroring of critical AI runtimes and libraries in your private container registries to avoid CI/CD breaks.",
-      "source": "Hacker News",
-      "url": "https://github.com/microsoft/onnxruntime"
+      "summary": "Reports indicate a silent AWS outage that affected specific service regions without triggering the main status dashboard. This highlights the increasing complexity of maintaining 100% uptime in hyper-scaled environments.",
+      "stock_ripple": "Cloud-dependent stocks like Oracle (ORCL) fell 8.48% as infrastructure reliability concerns resurface.",
+      "sip_career_note": "Reinforces the importance of multi-region Kubernetes failover strategies and independent observability tools.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511"
+    },
+    {
+      "title": "Signal slams door on prying AI agents to protect privacy",
+      "category": "Hyperscalers & Deals",
+      "impact_horizon": "Next 30 Days",
+      "severity": "shift",
+      "summary": "Signal has implemented strict blocks against AI agents attempting to scrape or interact with user data. This move sets a precedent for privacy-first platforms resisting the pervasive data collection required for LLM training.",
+      "stock_ripple": "Meta (META) fell 5.93% as social platforms face increasing friction in data acquisition for AI training.",
+      "sip_career_note": "Platform engineers must account for stricter egress rules and privacy-proxy layers when integrating AI agents into communication stacks.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"
     }
   ],
   "thirty_day_outlook": {
     "global_tech": {
       "title": "Global AI & Big Tech (30-Day View)",
       "points": [
-        "Nvidia SEC probe and leadership uncertainty will likely keep semiconductor stocks volatile.",
-        "Anthropic's IPO performance will serve as a bellwether for private AI company valuations.",
-        "Nasdaq correction may continue until earnings reports provide a new fundamental floor."
+        "Expect continued volatility in NVDA as the SEC probe progresses and leadership questions linger.",
+        "A shift in investor focus from AI 'hype' to 'unit economics' will likely favor hyperscalers with established enterprise revenue.",
+        "The $4T wipeout may lead to a consolidation phase where smaller AI startups are acquired by cash-rich tech giants."
       ]
     },
     "indian_sips": {
       "title": "Indian Markets & Model SIP Basket",
       "points": [
-        "Nifty 500 and Mid-cap indices show strong 30-day momentum (+7% to +10%) despite US headwinds.",
-        "PPFAS Flexi Cap may see short-term NAV pressure due to its international tech holdings.",
-        "Indian IT services (^CNXIT) remain a defensive play during US hardware-led sell-offs."
+        "Nifty 500 and Mid-cap funds show strong decoupling from US tech volatility, with MO Nifty 500 up 10.37% in 30 days.",
+        "PPFAS Flexi Cap may see a temporary NAV drag from its US tech holdings, presenting a 'buy the dip' opportunity for long-term SIPs.",
+        "Domestic IT services (^CNXIT) remain stable, gaining 1.3% as they benefit from enterprise AI implementation contracts."
       ]
     },
     "k8s_career": {
       "title": "Cloud, Kubernetes & AI Platform Radar",
       "points": [
-        "AI-designed CPU architectures like 'Frostbite' could change future node pool specifications.",
-        "Focus on 'Vibecoding' and low-latency inference chips for edge-computing deployments.",
-        "Increased scrutiny on AI agent data privacy will require tighter K8s network policies."
+        "The disappearance of Microsoft's ONNX runtime from GitHub suggests a potential shift in open-source strategy; monitor for forks.",
+        "Windows Server 2028 announcements indicate a renewed focus on hardened security for legacy-to-cloud migrations.",
+        "Platform engineers should prioritize 'FinOps' for AI, as companies move to optimize the high costs of model inference."
       ]
     }
   },
@@ -108,8 +108,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
       "discussion_url": "https://news.ycombinator.com/item?id=50581260",
       "source": "Hacker News",
-      "points": 1089,
-      "comments": 204,
+      "points": 1371,
+      "comments": 280,
       "published_at": "2026-11-20T20:12:19Z",
       "category": "Models & Open-Weights"
     },
@@ -124,63 +124,23 @@ window.__AI_PULSE_DATA__ = {
       "category": "Chips & China AI"
     },
     {
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "url": "https://architectlabs.com/blog/frostbite",
-      "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-      "source": "Hacker News",
-      "points": 651,
-      "comments": 337,
-      "published_at": "2026-11-20T10:01:41Z",
-      "category": "Models & Open-Weights"
-    },
-    {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discussion_url": "https://news.ycombinator.com/item?id=50548021",
       "source": "Hacker News",
-      "points": 602,
+      "points": 603,
       "comments": 377,
       "published_at": "2026-11-18T16:08:24Z",
       "category": "Models & Open-Weights"
     },
     {
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
-      "discussion_url": "https://news.ycombinator.com/item?id=50572348",
+      "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "url": "https://news.ycombinator.com/item?id=50583761",
+      "discussion_url": "https://news.ycombinator.com/item?id=50583761",
       "source": "Hacker News",
-      "points": 556,
-      "comments": 326,
-      "published_at": "2026-11-20T09:42:16Z",
-      "category": "Models & Open-Weights"
-    },
-    {
-      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-      "url": "https://github.com/microsoft/onnxruntime",
-      "discussion_url": "https://news.ycombinator.com/item?id=50539610",
-      "source": "Hacker News",
-      "points": 467,
-      "comments": 108,
-      "published_at": "2026-11-17T23:18:49Z",
-      "category": "Hyperscalers & Deals"
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "discussion_url": "https://news.ycombinator.com/item?id=50577265",
-      "source": "Hacker News",
-      "points": 429,
-      "comments": 126,
-      "published_at": "2026-11-20T16:29:06Z",
-      "category": "Models & Open-Weights"
-    },
-    {
-      "title": "MAI Code 2 and Code 2 Flash",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-      "discussion_url": "https://news.ycombinator.com/item?id=50535885",
-      "source": "Hacker News",
-      "points": 422,
-      "comments": 171,
-      "published_at": "2026-11-17T18:25:13Z",
+      "points": 597,
+      "comments": 656,
+      "published_at": "2026-11-20T23:18:32Z",
       "category": "Models & Open-Weights"
     },
     {
@@ -188,18 +148,28 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "discussion_url": "https://news.ycombinator.com/item?id=50574383",
       "source": "Hacker News",
-      "points": 357,
-      "comments": 652,
+      "points": 493,
+      "comments": 860,
       "published_at": "2026-11-20T13:29:59Z",
       "category": "Models & Open-Weights"
+    },
+    {
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "discussion_url": "https://news.ycombinator.com/item?id=50539610",
+      "source": "Hacker News",
+      "points": 468,
+      "comments": 108,
+      "published_at": "2026-11-17T23:18:49Z",
+      "category": "Hyperscalers & Deals"
     },
     {
       "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
       "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
       "discussion_url": "https://news.ycombinator.com/item?id=50581438",
       "source": "Hacker News",
-      "points": 291,
-      "comments": 156,
+      "points": 300,
+      "comments": 165,
       "published_at": "2026-11-20T20:22:41Z",
       "category": "Chips & China AI"
     },
@@ -208,23 +178,61 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
       "discussion_url": "https://news.ycombinator.com/item?id=50577901",
       "source": "Hacker News",
-      "points": 277,
-      "comments": 214,
+      "points": 279,
+      "comments": 226,
       "published_at": "2026-11-20T16:59:27Z",
       "category": "Hyperscalers & Deals"
     },
     {
-      "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
-      "url": "https://news.ycombinator.com/item?id=50583761",
-      "discussion_url": "https://news.ycombinator.com/item?id=50583761",
+      "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+      "url": "https://exitpath-ruddy.vercel.app/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50547980",
       "source": "Hacker News",
-      "points": 274,
-      "comments": 242,
-      "published_at": "2026-11-20T23:18:32Z",
+      "points": 251,
+      "comments": 94,
+      "published_at": "2026-11-18T16:04:43Z",
+      "category": "Outages & Layoffs"
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50586292",
+      "source": "Hacker News",
+      "points": 156,
+      "comments": 50,
+      "published_at": "2026-11-21T05:38:01Z",
       "category": "Models & Open-Weights"
+    },
+    {
+      "title": "AI is giving everyone the same advice",
+      "url": "https://a90.com/experiments/same-advice/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50577872",
+      "source": "Hacker News",
+      "points": 120,
+      "comments": 48,
+      "published_at": "2026-11-20T16:58:05Z",
+      "category": "Models & Open-Weights"
+    },
+    {
+      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "discussion_url": "https://news.ycombinator.com/item?id=50534044",
+      "source": "Hacker News",
+      "points": 100,
+      "comments": 196,
+      "published_at": "2026-11-17T16:40:38Z",
+      "category": "Chips & China AI"
     }
   ],
   "rss_feed": [
+    {
+      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
+      "url": "https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511",
+      "source": "The Register",
+      "snippet": "If a service falls in the forest and nobody hears it...",
+      "published_at": "Sat, 21 Nov 2026 14:35:00 +0000",
+      "category": "Outages & Layoffs"
+    },
     {
       "title": "Amazon's split personality: AWS embraces bot commerce while main site enforces bans",
       "url": "https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493",
@@ -263,14 +271,6 @@ window.__AI_PULSE_DATA__ = {
       "source": "The Register",
       "snippet": "Devices found to misinterpret medication instructions and other scenarios impacting human safety",
       "published_at": "Fri, 20 Nov 2026 16:44:00 +0000",
-      "category": "Models & Open-Weights"
-    },
-    {
-      "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
-      "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
-      "source": "The Register",
-      "snippet": "Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028",
-      "published_at": "Fri, 20 Nov 2026 16:01:00 +0000",
       "category": "Models & Open-Weights"
     },
     {
