@@ -1,7 +1,7 @@
 window.__AI_PULSE_DATA__ = {
   "meta": {
-    "generated_at_iso": "2026-11-24T05:01:02.137820+05:30",
-    "generated_at_display": "24 Nov 2026, 05:01 AM IST",
+    "generated_at_iso": "2026-11-24T05:33:38.633347+05:30",
+    "generated_at_display": "24 Nov 2026, 05:33 AM IST",
     "synthesis_mode": "Gemini Free API (gemini-3-flash-preview LIVE)",
     "sources_status": {
       "amfi_mfapi": "3/3 live",
@@ -13,103 +13,103 @@ window.__AI_PULSE_DATA__ = {
   },
   "status_bar": {
     "level": "BLUE",
-    "badge": "CEO REINSTATEMENT RALLY",
-    "title": "Nvidia Leadership Restored; Indian Markets Surge",
-    "subtitle": "Jensen Huang's return sparks a massive tech rebound as the Nifty 500 maintains strong 30-day momentum.",
-    "sip_action": "Continue SIP autopilot; the current 30-day window shows strong Indian resilience despite US tech volatility."
+    "badge": "Nvidia Rebound",
+    "title": "Leadership Stability & Tech Recovery",
+    "subtitle": "Jensen Huang's return stabilizes chip sentiment while Indian indices maintain strong 30-day momentum.",
+    "sip_action": "Maintain SIP autopilot; the recent volatility in global tech provides a healthy entry point for the Flexi Cap component."
   },
-  "headline_banner": "Nvidia shares surge 31% on Jensen Huang's return while Indian indices continue their 30-day outperformance.",
+  "headline_banner": "Nvidia leadership stabilizes amid SEC scrutiny as Indian markets consolidate recent double-digit gains.",
   "curated_stories": [
     {
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "category": "Chips & China AI",
       "impact_horizon": "Next 30 Days",
       "severity": "shift",
-      "summary": "The Nvidia board has officially reinstated Jensen Huang as CEO following a period of leadership uncertainty. This move immediately stabilized market sentiment, leading to a massive single-day recovery in the stock price.",
-      "stock_ripple": "NVDA surged over 31% in a single day, providing a massive tailwind for the Nasdaq-100 and PPFAS Flexi Cap's international holdings.",
-      "sip_career_note": "Leadership stability in the primary AI hardware provider reduces long-term risk for platform engineers building on GPU-accelerated clusters.",
+      "summary": "The board has reinstated Jensen Huang as CEO, providing immediate leadership continuity following a period of uncertainty. This move aims to reassure investors and stabilize the company's strategic direction in the AI hardware market.",
+      "stock_ripple": "NVDA surged 31% in a single day, significantly recovering from its 23% monthly decline.",
+      "sip_career_note": "Stability in the primary AI hardware provider secures the long-term roadmap for GPU-accelerated Kubernetes clusters.",
       "source": "Hacker News",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
     },
     {
       "title": "US SEC's Nvidia probe is examining potential accounting issues",
       "category": "Chips & China AI",
       "impact_horizon": "Next 30 Days",
       "severity": "dip",
-      "summary": "Despite the CEO reinstatement, the SEC is reportedly investigating Nvidia's accounting practices. This regulatory scrutiny remains a primary headwind for the semiconductor sector's valuation.",
-      "stock_ripple": "This probe explains the 23% decline over the last 30 days, acting as a counter-weight to the recent leadership rally.",
-      "sip_career_note": "Regulatory risks in the supply chain suggest maintaining a diversified SIP basket like the Nifty 500 to hedge against single-sector volatility.",
+      "summary": "Regulators are reportedly examining potential accounting discrepancies at Nvidia, adding a layer of regulatory risk to the chipmaker. The probe focuses on how the company reports its massive AI-driven revenue growth.",
+      "stock_ripple": "This news may temper the enthusiasm from the CEO reinstatement and introduce short-term volatility.",
+      "sip_career_note": "Platform engineers should monitor vendor risk but remain focused on infrastructure agnostic to specific chip providers.",
       "source": "Hacker News",
       "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
-    },
-    {
-      "title": "Seven new models at scalable price-performance",
-      "category": "Models & Open-Weights",
-      "impact_horizon": "Next 30 Days",
-      "severity": "normal",
-      "summary": "Microsoft Ignite 2026 introduced a suite of new AI models optimized for cost-effective scaling. These models aim to bridge the gap between high-end reasoning and production-level inference costs.",
-      "stock_ripple": "MSFT saw a modest 1.65% gain as it continues to solidify its position as the primary enterprise AI platform.",
-      "sip_career_note": "For K8s engineers, scalable model pricing simplifies the business case for deploying LLM inference services on internal clusters.",
-      "source": "Hacker News",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
-    },
-    {
-      "title": "Microsoft mega outage: Report reveals testing gaps",
-      "category": "Outages & Layoffs",
-      "impact_horizon": "Next 30 Days",
-      "severity": "normal",
-      "summary": "A post-mortem of the recent Microsoft outage highlights critical gaps in automated testing and email delivery systems. The report emphasizes the need for more robust failover mechanisms in SaaS environments.",
-      "stock_ripple": "Ongoing reliability concerns may drive enterprise interest toward multi-cloud or hybrid-cloud solutions, benefiting diversified tech providers.",
-      "sip_career_note": "The report reinforces the value of SRE and platform engineering roles focused on high-availability and automated recovery in Kubernetes environments.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656"
     },
     {
       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "category": "Models & Open-Weights",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "The release of GLM-5.4 introduces a loop transformer architecture designed specifically for advanced coding tasks. This represents a significant step in open-weights competition from the Chinese AI ecosystem.",
-      "stock_ripple": "Increased competition in the model space puts pressure on proprietary providers like Google and Meta to maintain their ELO leads.",
-      "sip_career_note": "The rise of specialized coding models directly impacts the developer experience (DevEx) and automation capabilities within the K8s ecosystem.",
+      "summary": "A new model focused on generalized coding tasks using a loop transformer architecture has been released. It aims to improve the efficiency of automated code generation and reasoning.",
+      "stock_ripple": "Increases global competition for US-based coding assistants, potentially impacting long-term SaaS margins.",
+      "sip_career_note": "Enhanced coding models improve developer productivity for platform automation and Helm chart generation.",
       "source": "Hacker News",
       "url": "https://z.ai/blog/glm-5.4"
     },
     {
-      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "title": "Seven new models at scalable price-performance",
+      "category": "Models & Open-Weights",
+      "impact_horizon": "Next 30 Days",
+      "severity": "normal",
+      "summary": "Microsoft unveiled seven new AI models at Ignite 2026, focusing on optimizing the balance between inference cost and model performance. These models are designed for enterprise-scale deployment.",
+      "stock_ripple": "MSFT shares rose 1.65%, reinforcing its position as a diversified leader in the AI software stack.",
+      "sip_career_note": "Lower inference costs make it easier for platform teams to justify integrating AI into internal monitoring and observability tools.",
+      "source": "Hacker News",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+    },
+    {
+      "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
       "category": "Hyperscalers & Deals",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "Microsoft has unveiled Windows Server 2028, focusing on kernel-level security hardening and better integration with cloud-native workflows. This update targets legacy enterprise workloads moving toward hybrid environments.",
-      "stock_ripple": "Steady infrastructure updates support MSFT's long-term enterprise revenue moat, contributing to its 30-day stability.",
-      "sip_career_note": "Platform engineers should note the continued convergence of traditional server OS features with container-orchestration security requirements.",
-      "source": "Hacker News",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/"
+      "summary": "Amazon has acquired technology designed to optimize AI chip utilization, ensuring that hardware accelerators remain active and efficient. This move targets reducing idle time in massive data center deployments.",
+      "stock_ripple": "Strengthens AWS's competitive edge in cloud infrastructure efficiency against Azure and GCP.",
+      "sip_career_note": "Improved hardware efficiency in the cloud directly impacts the cost-optimization (FinOps) aspect of Kubernetes management.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754"
+    },
+    {
+      "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+      "category": "Outages & Layoffs",
+      "impact_horizon": "Next 30 Days",
+      "severity": "dip",
+      "summary": "A post-mortem report on a recent major Microsoft outage highlights significant gaps in automated testing and internal communication. The failure led to widespread service disruptions for enterprise customers.",
+      "stock_ripple": "Highlights operational risks in the SaaS sector, though the stock remains resilient due to AI growth.",
+      "sip_career_note": "A critical reminder for platform engineers to prioritize multi-region failover and robust health-checking in K8s environments.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656"
     }
   ],
   "thirty_day_outlook": {
     "global_tech": {
       "title": "Global AI & Big Tech (30-Day View)",
       "points": [
-        "Nvidia's 31% rebound mitigates the impact of the SEC probe, though the stock remains down 23% over 30 days.",
-        "Anthropic's Claude Fable 5.2 Max maintains the #1 ELO spot, keeping pressure on OpenAI and Google.",
-        "Hyperscaler Capex remains high as Amazon and Microsoft double down on custom AI accelerator hardware."
+        "NVDA's 31% daily jump vs 23% monthly drop shows extreme volatility in the semiconductor sector.",
+        "The SEC probe into Nvidia's accounting remains a wildcard for US tech sentiment.",
+        "Hyperscalers are shifting focus from raw power to cost-efficient inference and hardware utilization."
       ]
     },
     "indian_sips": {
       "title": "Indian Markets & Model SIP Basket",
       "points": [
-        "The Nifty 500 is the standout performer with a 14.16% gain over the last 30 days, validating the 40% basket allocation.",
-        "PPFAS Flexi Cap (up 6.13% in 30 days) is well-positioned to capture the US tech recovery through its international exposure.",
-        "Edelweiss Mid Cap shows steady 7.19% monthly growth, benefiting from domestic liquidity and industrial tailwinds."
+        "The Nifty 500 is up 10% in 30 days, showing strong domestic resilience despite global chip volatility.",
+        "PPFAS Flexi Cap is well-positioned to benefit from the recovery in US tech bellwethers like MSFT and GOOGL.",
+        "Mid-caps are seeing slight profit booking after a 7% monthly run, suggesting a healthy consolidation phase."
       ]
     },
     "k8s_career": {
       "title": "Cloud, Kubernetes & AI Platform Radar",
       "points": [
-        "Focus on 'Local AI' tools like Unsloth and Qwen for deploying cost-effective, private LLM instances on K8s.",
-        "Hardened security in Windows Server 2028 suggests a renewed enterprise focus on hybrid-cloud security posture.",
-        "Reliability engineering (SRE) remains a critical skill as hyperscalers face scrutiny over testing gaps and outages."
+        "Local AI deployment (Qwen/Unsloth) is becoming a viable alternative for secure, on-prem Kubernetes workloads.",
+        "Platform engineering is shifting toward 'AI-ready' infrastructure that can handle dynamic GPU scheduling.",
+        "Resilience testing and multi-cloud strategies are gaining renewed importance following major hyperscaler outages."
       ]
     }
   },
@@ -119,8 +119,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
       "discussion_url": "https://news.ycombinator.com/item?id=50611576",
       "source": "Hacker News",
-      "points": 1881,
-      "comments": 2968,
+      "points": 1943,
+      "comments": 3034,
       "published_at": "2026-11-23T14:00:18Z",
       "category": "Chips & China AI"
     },
@@ -139,8 +139,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://z.ai/blog/glm-5.4",
       "discussion_url": "https://news.ycombinator.com/item?id=50609685",
       "source": "Hacker News",
-      "points": 1015,
-      "comments": 332,
+      "points": 1025,
+      "comments": 334,
       "published_at": "2026-11-23T10:06:43Z",
       "category": "Models & Open-Weights"
     },
@@ -149,8 +149,8 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "discussion_url": "https://news.ycombinator.com/item?id=50615308",
       "source": "Hacker News",
-      "points": 935,
-      "comments": 544,
+      "points": 997,
+      "comments": 582,
       "published_at": "2026-11-23T17:07:26Z",
       "category": "Models & Open-Weights"
     },
@@ -159,7 +159,7 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "discussion_url": "https://news.ycombinator.com/item?id=50603845",
       "source": "Hacker News",
-      "points": 741,
+      "points": 743,
       "comments": 296,
       "published_at": "2026-11-22T21:01:16Z",
       "category": "Chips & China AI"
@@ -179,7 +179,7 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
       "discussion_url": "https://news.ycombinator.com/item?id=50581438",
       "source": "Hacker News",
-      "points": 307,
+      "points": 308,
       "comments": 170,
       "published_at": "2026-11-20T20:22:41Z",
       "category": "Chips & China AI"
@@ -189,7 +189,7 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
       "discussion_url": "https://news.ycombinator.com/item?id=50605045",
       "source": "Hacker News",
-      "points": 256,
+      "points": 257,
       "comments": 193,
       "published_at": "2026-11-22T23:12:10Z",
       "category": "Models & Open-Weights"
@@ -209,10 +209,20 @@ window.__AI_PULSE_DATA__ = {
       "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
       "discussion_url": "https://news.ycombinator.com/item?id=50611402",
       "source": "Hacker News",
-      "points": 103,
-      "comments": 19,
+      "points": 107,
+      "comments": 20,
       "published_at": "2026-11-23T13:42:38Z",
       "category": "Chips & China AI"
+    },
+    {
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
+      "source": "Hacker News",
+      "points": 97,
+      "comments": 58,
+      "published_at": "2026-11-23T22:32:29Z",
+      "category": "Hyperscalers & Deals"
     },
     {
       "title": "Microsoft announces Windows Server 2028 with hardened security",
@@ -223,16 +233,6 @@ window.__AI_PULSE_DATA__ = {
       "comments": 117,
       "published_at": "2026-11-18T18:50:35Z",
       "category": "Hyperscalers & Deals"
-    },
-    {
-      "title": "Harvard CS 2881R AI Safety",
-      "url": "https://boazbk.github.io/mltheoryseminar/",
-      "discussion_url": "https://news.ycombinator.com/item?id=50602153",
-      "source": "Hacker News",
-      "points": 78,
-      "comments": 8,
-      "published_at": "2026-11-22T18:01:54Z",
-      "category": "Models & Open-Weights"
     }
   ],
   "rss_feed": [
@@ -398,14 +398,13 @@ window.__AI_PULSE_DATA__ = {
       "short_name": "Edelweiss Mid Cap",
       "weight_pct": 30,
       "exposure": "High-growth Indian mid-caps (higher volatility, best accumulated during dips)",
-      "nav": 128.097,
-      "nav_date": "20-11-2026",
-      "change_1d_pct": 0.54,
-      "change_30d_pct": 7.19,
+      "nav": 127.026,
+      "nav_date": "23-11-2026",
+      "change_1d_pct": -0.84,
+      "change_30d_pct": 7.17,
       "status": "LIVE",
       "official_name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
       "spark": [
-        119.506,
         118.526,
         116.16,
         117.242,
@@ -426,7 +425,8 @@ window.__AI_PULSE_DATA__ = {
         127.605,
         126.231,
         127.404,
-        128.097
+        128.097,
+        127.026
       ]
     }
   ],
