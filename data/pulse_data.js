@@ -1,7 +1,7 @@
 window.__AI_PULSE_DATA__ = {
   "meta": {
-    "generated_at_iso": "2026-11-24T05:33:38.633347+05:30",
-    "generated_at_display": "24 Nov 2026, 05:33 AM IST",
+    "generated_at_iso": "2026-11-27T05:45:16.792943+05:30",
+    "generated_at_display": "27 Nov 2026, 05:45 AM IST",
     "synthesis_mode": "Gemini Free API (gemini-3-flash-preview LIVE)",
     "sources_status": {
       "amfi_mfapi": "3/3 live",
@@ -13,275 +13,283 @@ window.__AI_PULSE_DATA__ = {
   },
   "status_bar": {
     "level": "BLUE",
-    "badge": "Nvidia Rebound",
-    "title": "Leadership Stability & Tech Recovery",
-    "subtitle": "Jensen Huang's return stabilizes chip sentiment while Indian indices maintain strong 30-day momentum.",
-    "sip_action": "Maintain SIP autopilot; the recent volatility in global tech provides a healthy entry point for the Flexi Cap component."
+    "badge": "Accumulation Window",
+    "title": "US Tech Correction vs. Indian Resilience",
+    "subtitle": "Global hyperscalers face volatility while Indian indices hit 30-day highs.",
+    "sip_action": "Continue SIP autopilot; the US tech dip provides a lower entry point for the PPFAS Flexi Cap's international component."
   },
-  "headline_banner": "Nvidia leadership stabilizes amid SEC scrutiny as Indian markets consolidate recent double-digit gains.",
+  "headline_banner": "Microsoft declares 'Code Red' following historic outages as Indian markets decouple from US tech volatility.",
   "curated_stories": [
     {
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "category": "Chips & China AI",
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "category": "Outages & Layoffs",
       "impact_horizon": "Next 30 Days",
       "severity": "shift",
-      "summary": "The board has reinstated Jensen Huang as CEO, providing immediate leadership continuity following a period of uncertainty. This move aims to reassure investors and stabilize the company's strategic direction in the AI hardware market.",
-      "stock_ripple": "NVDA surged 31% in a single day, significantly recovering from its 23% monthly decline.",
-      "sip_career_note": "Stability in the primary AI hardware provider secures the long-term roadmap for GPU-accelerated Kubernetes clusters.",
+      "summary": "Internal memos reveal a high-priority response to recent infrastructure failures that have shaken enterprise confidence. The 'Code Red' status indicates a pivot toward stability over rapid feature deployment.",
+      "stock_ripple": "MSFT is down 8.01% over 30 days as reliability concerns weigh on the hyperscaler's valuation.",
+      "sip_career_note": "For K8s engineers, this reinforces the necessity of multi-region failover and disaster recovery audits.",
       "source": "Hacker News",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+      "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
     },
     {
-      "title": "US SEC's Nvidia probe is examining potential accounting issues",
-      "category": "Chips & China AI",
-      "impact_horizon": "Next 30 Days",
-      "severity": "dip",
-      "summary": "Regulators are reportedly examining potential accounting discrepancies at Nvidia, adding a layer of regulatory risk to the chipmaker. The probe focuses on how the company reports its massive AI-driven revenue growth.",
-      "stock_ripple": "This news may temper the enthusiasm from the CEO reinstatement and introduce short-term volatility.",
-      "sip_career_note": "Platform engineers should monitor vendor risk but remain focused on infrastructure agnostic to specific chip providers.",
-      "source": "Hacker News",
-      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
-    },
-    {
-      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-      "category": "Models & Open-Weights",
-      "impact_horizon": "Next 30 Days",
-      "severity": "normal",
-      "summary": "A new model focused on generalized coding tasks using a loop transformer architecture has been released. It aims to improve the efficiency of automated code generation and reasoning.",
-      "stock_ripple": "Increases global competition for US-based coding assistants, potentially impacting long-term SaaS margins.",
-      "sip_career_note": "Enhanced coding models improve developer productivity for platform automation and Helm chart generation.",
-      "source": "Hacker News",
-      "url": "https://z.ai/blog/glm-5.4"
-    },
-    {
-      "title": "Seven new models at scalable price-performance",
-      "category": "Models & Open-Weights",
-      "impact_horizon": "Next 30 Days",
-      "severity": "normal",
-      "summary": "Microsoft unveiled seven new AI models at Ignite 2026, focusing on optimizing the balance between inference cost and model performance. These models are designed for enterprise-scale deployment.",
-      "stock_ripple": "MSFT shares rose 1.65%, reinforcing its position as a diversified leader in the AI software stack.",
-      "sip_career_note": "Lower inference costs make it easier for platform teams to justify integrating AI into internal monitoring and observability tools.",
-      "source": "Hacker News",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
-    },
-    {
-      "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
       "category": "Hyperscalers & Deals",
       "impact_horizon": "Next 30 Days",
       "severity": "normal",
-      "summary": "Amazon has acquired technology designed to optimize AI chip utilization, ensuring that hardware accelerators remain active and efficient. This move targets reducing idle time in massive data center deployments.",
-      "stock_ripple": "Strengthens AWS's competitive edge in cloud infrastructure efficiency against Azure and GCP.",
-      "sip_career_note": "Improved hardware efficiency in the cloud directly impacts the cost-optimization (FinOps) aspect of Kubernetes management.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754"
+      "summary": "Stalwart has reached a milestone as a viable open-source alternative to Microsoft's dominant mail server. This provides enterprises with a path toward self-hosting critical communication infrastructure.",
+      "stock_ripple": "Increased viability of open-source alternatives creates long-term competitive pressure on MSFT's SaaS margins.",
+      "sip_career_note": "Platform engineers should monitor the rise of containerized mail stacks as alternatives to proprietary SaaS.",
+      "source": "Hacker News",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/"
     },
     {
-      "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
-      "category": "Outages & Layoffs",
+      "title": "OpenAI may be in cost control mode",
+      "category": "Hyperscalers & Deals",
+      "impact_horizon": "Next 30 Days",
+      "severity": "shift",
+      "summary": "Reports suggest OpenAI is tightening its belt on compute spending as the costs of training next-gen models escalate. This shift could signal a slowdown in the unconstrained demand for high-end AI chips.",
+      "stock_ripple": "Contributes to the 30.88% monthly decline in NVDA as investors re-evaluate the pace of AI infrastructure spend.",
+      "sip_career_note": "Focus on optimizing inference efficiency within K8s clusters to align with industry-wide cost-saving trends.",
+      "source": "Hacker News",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/"
+    },
+    {
+      "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+      "category": "Chips & China AI",
       "impact_horizon": "Next 30 Days",
       "severity": "dip",
-      "summary": "A post-mortem report on a recent major Microsoft outage highlights significant gaps in automated testing and internal communication. The failure led to widespread service disruptions for enterprise customers.",
-      "stock_ripple": "Highlights operational risks in the SaaS sector, though the stock remains resilient due to AI growth.",
-      "sip_career_note": "A critical reminder for platform engineers to prioritize multi-region failover and robust health-checking in K8s environments.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656"
+      "summary": "The U.S. has blacklisted a former Nvidia partner, further restricting the flow of high-performance silicon to restricted regions. This escalates the geopolitical friction surrounding the AI supply chain.",
+      "stock_ripple": "Adds regulatory pressure to the semiconductor sector, impacting NVDA and the broader Nasdaq-100 (^NDX).",
+      "sip_career_note": "Supply chain volatility may lead to longer lead times for specialized GPU nodes in cloud environments.",
+      "source": "Hacker News",
+      "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "category": "Models & Open-Weights",
+      "impact_horizon": "Next 30 Days",
+      "severity": "normal",
+      "summary": "The NYT is concerned that new AI features may strip or alter metadata essential for content provenance. This highlights the growing tension between traditional media and generative AI tools.",
+      "stock_ripple": "Reflects broader legal and ethical risks that could impact AI-integrated software stocks.",
+      "sip_career_note": "Data lineage and metadata integrity are becoming critical requirements for AI platform deployments.",
+      "source": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "category": "Hyperscalers & Deals",
+      "impact_horizon": "Next 30 Days",
+      "severity": "normal",
+      "summary": "Google is integrating its AI agents with the Model Context Protocol (MCP), though early iterations show functional limitations. This move aims to standardize how agents interact with workspace data.",
+      "stock_ripple": "GOOGL shares remain under pressure (-13.79% 30d) as the market seeks more robust AI agent utility.",
+      "sip_career_note": "Understanding MCP will be vital for engineers building agentic workflows on Kubernetes.",
+      "source": "Hacker News",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
     }
   ],
   "thirty_day_outlook": {
     "global_tech": {
       "title": "Global AI & Big Tech (30-Day View)",
       "points": [
-        "NVDA's 31% daily jump vs 23% monthly drop shows extreme volatility in the semiconductor sector.",
-        "The SEC probe into Nvidia's accounting remains a wildcard for US tech sentiment.",
-        "Hyperscalers are shifting focus from raw power to cost-efficient inference and hardware utilization."
+        "Nvidia (NVDA) faces a significant 30% correction, suggesting a cooling of the initial AI hype cycle.",
+        "Microsoft (MSFT) is prioritizing stability over features following its 'Code Red' outage memo.",
+        "OpenAI's cost-control measures may signal a shift toward more efficient, smaller models."
       ]
     },
     "indian_sips": {
       "title": "Indian Markets & Model SIP Basket",
       "points": [
-        "The Nifty 500 is up 10% in 30 days, showing strong domestic resilience despite global chip volatility.",
-        "PPFAS Flexi Cap is well-positioned to benefit from the recovery in US tech bellwethers like MSFT and GOOGL.",
-        "Mid-caps are seeing slight profit booking after a 7% monthly run, suggesting a healthy consolidation phase."
+        "The Nifty 500 (MO Nifty 500) shows strong 11.52% monthly growth, outperforming global tech indices.",
+        "PPFAS Flexi Cap remains resilient (+7.63% 30d) despite the dip in its US-based holdings.",
+        "Edelweiss Mid Cap continues to benefit from domestic liquidity, up 8.88% in the last 30 days."
       ]
     },
     "k8s_career": {
       "title": "Cloud, Kubernetes & AI Platform Radar",
       "points": [
-        "Local AI deployment (Qwen/Unsloth) is becoming a viable alternative for secure, on-prem Kubernetes workloads.",
-        "Platform engineering is shifting toward 'AI-ready' infrastructure that can handle dynamic GPU scheduling.",
-        "Resilience testing and multi-cloud strategies are gaining renewed importance following major hyperscaler outages."
+        "The rise of self-hosted AI and Exchange replacements favors engineers with strong on-prem and private cloud skills.",
+        "Windows Server 2028 announcements suggest a renewed focus on hardened security for hybrid workloads.",
+        "Model Context Protocol (MCP) is emerging as a key standard for connecting K8s-hosted agents to data sources."
       ]
     }
   },
   "live_hn_feed": [
     {
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "discussion_url": "https://news.ycombinator.com/item?id=50611576",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
       "source": "Hacker News",
-      "points": 1943,
-      "comments": 3034,
-      "published_at": "2026-11-23T14:00:18Z",
-      "category": "Chips & China AI"
+      "points": 714,
+      "comments": 348,
+      "published_at": "2026-11-23T22:32:29Z",
+      "category": "Hyperscalers & Deals"
     },
     {
-      "title": "Jensen Huang Reinstated as Nvidia CEO",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "discussion_url": "https://news.ycombinator.com/item?id=50611588",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "discussion_url": "https://news.ycombinator.com/item?id=50647673",
       "source": "Hacker News",
-      "points": 1700,
-      "comments": 4,
-      "published_at": "2026-11-23T14:01:23Z",
-      "category": "Chips & China AI"
-    },
-    {
-      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-      "url": "https://z.ai/blog/glm-5.4",
-      "discussion_url": "https://news.ycombinator.com/item?id=50609685",
-      "source": "Hacker News",
-      "points": 1025,
-      "comments": 334,
-      "published_at": "2026-11-23T10:06:43Z",
+      "points": 648,
+      "comments": 516,
+      "published_at": "2026-11-25T21:18:02Z",
       "category": "Models & Open-Weights"
-    },
-    {
-      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
-      "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "discussion_url": "https://news.ycombinator.com/item?id=50615308",
-      "source": "Hacker News",
-      "points": 997,
-      "comments": 582,
-      "published_at": "2026-11-23T17:07:26Z",
-      "category": "Models & Open-Weights"
-    },
-    {
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "discussion_url": "https://news.ycombinator.com/item?id=50603845",
-      "source": "Hacker News",
-      "points": 743,
-      "comments": 296,
-      "published_at": "2026-11-22T21:01:16Z",
-      "category": "Chips & China AI"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discussion_url": "https://news.ycombinator.com/item?id=50548021",
       "source": "Hacker News",
-      "points": 606,
+      "points": 607,
       "comments": 377,
       "published_at": "2026-11-18T16:08:24Z",
       "category": "Models & Open-Weights"
     },
     {
-      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
-      "discussion_url": "https://news.ycombinator.com/item?id=50581438",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50638503",
       "source": "Hacker News",
-      "points": 308,
-      "comments": 170,
-      "published_at": "2026-11-20T20:22:41Z",
+      "points": 353,
+      "comments": 80,
+      "published_at": "2026-11-25T04:31:48Z",
       "category": "Chips & China AI"
     },
     {
-      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-      "discussion_url": "https://news.ycombinator.com/item?id=50605045",
+      "title": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50657307",
+      "source": "Hacker News",
+      "points": 299,
+      "comments": 177,
+      "published_at": "2026-11-26T17:16:41Z",
+      "category": "Models & Open-Weights"
+    },
+    {
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50631157",
       "source": "Hacker News",
       "points": 257,
-      "comments": 193,
-      "published_at": "2026-11-22T23:12:10Z",
-      "category": "Models & Open-Weights"
+      "comments": 245,
+      "published_at": "2026-11-24T17:07:41Z",
+      "category": "Outages & Layoffs"
     },
     {
       "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
       "url": "https://exitpath-ruddy.vercel.app/",
       "discussion_url": "https://news.ycombinator.com/item?id=50547980",
       "source": "Hacker News",
-      "points": 251,
+      "points": 253,
       "comments": 94,
       "published_at": "2026-11-18T16:04:43Z",
       "category": "Outages & Layoffs"
     },
     {
-      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-      "discussion_url": "https://news.ycombinator.com/item?id=50611402",
+      "title": "Moat: OpenRouter replacement",
+      "url": "https://commandcode.ai/moat",
+      "discussion_url": "https://news.ycombinator.com/item?id=50652184",
       "source": "Hacker News",
-      "points": 107,
-      "comments": 20,
-      "published_at": "2026-11-23T13:42:38Z",
-      "category": "Chips & China AI"
+      "points": 244,
+      "comments": 136,
+      "published_at": "2026-11-26T06:32:48Z",
+      "category": "Models & Open-Weights"
     },
     {
-      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50652527",
       "source": "Hacker News",
-      "points": 97,
-      "comments": 58,
-      "published_at": "2026-11-23T22:32:29Z",
+      "points": 242,
+      "comments": 226,
+      "published_at": "2026-11-26T07:33:12Z",
       "category": "Hyperscalers & Deals"
     },
     {
-      "title": "Microsoft announces Windows Server 2028 with hardened security",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-      "discussion_url": "https://news.ycombinator.com/item?id=50550430",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50638220",
       "source": "Hacker News",
-      "points": 83,
-      "comments": 117,
-      "published_at": "2026-11-18T18:50:35Z",
+      "points": 223,
+      "comments": 85,
+      "published_at": "2026-11-25T03:47:42Z",
+      "category": "Models & Open-Weights"
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "discussion_url": "https://news.ycombinator.com/item?id=50653477",
+      "source": "Hacker News",
+      "points": 212,
+      "comments": 188,
+      "published_at": "2026-11-26T09:44:23Z",
       "category": "Hyperscalers & Deals"
+    },
+    {
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "discussion_url": "https://news.ycombinator.com/item?id=50660180",
+      "source": "Hacker News",
+      "points": 205,
+      "comments": 113,
+      "published_at": "2026-11-26T21:47:45Z",
+      "category": "Models & Open-Weights"
     }
   ],
   "rss_feed": [
     {
-      "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
-      "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+      "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+      "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
       "source": "The Register",
-      "snippet": "Not the whole startup - just its tech and the brains behind it",
-      "published_at": "Mon, 23 Nov 2026 21:17:15 +0000",
-      "category": "Hyperscalers & Deals"
+      "snippet": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+      "published_at": "Thu, 26 Nov 2026 19:04:00 +0000",
+      "category": "Outages & Layoffs"
     },
     {
-      "title": "Bluetooth brakes are broken as researchers find anyone can control them",
-      "url": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
+      "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+      "url": "https://www.theregister.com/research/2026/11/26/techs-outage-problem-needs-maintenance-not-conspiracy-theories/5312180",
       "source": "The Register",
-      "snippet": "Security fixes are available for two Elecbrakes models, but an older controller remains vulnerable and unpatched",
-      "published_at": "Mon, 23 Nov 2026 19:29:59 +0000",
+      "snippet": "Forrester warns that shiny new services rest on brittle systems as organizations skimp on resilience",
+      "published_at": "Thu, 26 Nov 2026 17:09:00 +0000",
+      "category": "Outages & Layoffs"
+    },
+    {
+      "title": "Microsoft hotpatches hotpatch that could crash Windows Server 2025",
+      "url": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+      "source": "The Register",
+      "snippet": "Expiring IPv6 routes can bring affected systems down, though corrective update doesn't require a restart",
+      "published_at": "Thu, 26 Nov 2026 12:27:00 +0000",
+      "category": "Outages & Layoffs"
+    },
+    {
+      "title": "India’s government ponders cradle to grave AI oversight",
+      "url": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+      "source": "The Register",
+      "snippet": "Machines of loving grace to turn social media grumps into services, finger painting into career advice",
+      "published_at": "Thu, 26 Nov 2026 03:42:56 +0000",
       "category": "Models & Open-Weights"
     },
     {
-      "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
-      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+      "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+      "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268",
       "source": "The Register",
-      "snippet": "July bug overwhelmed newer servers, prompting promises of stronger safeguards and faster recovery",
-      "published_at": "Mon, 23 Nov 2026 16:16:00 +0000",
-      "category": "Outages & Layoffs"
+      "snippet": "Approval for ‘Starmind’ granted but it’s a long way from the launchpad, or making sense",
+      "published_at": "Wed, 25 Nov 2026 22:54:07 +0000",
+      "category": "Hyperscalers & Deals"
     },
     {
-      "title": "Nvidia board puts Jensen Huang back as boss",
-      "url": "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+      "title": "Huawei and crew tout homegrown EDA tools to overcome China’s fab deficit",
+      "url": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205",
       "source": "The Register",
-      "snippet": "BoomerHuang CEO returns",
-      "published_at": "Mon, 23 Nov 2026 14:35:50 +0000",
+      "snippet": "Chip design software leans heavily into 3D packaging and multi-node assemblies",
+      "published_at": "Wed, 25 Nov 2026 18:02:00 +0000",
       "category": "Chips & China AI"
     },
     {
-      "title": "Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier",
-      "url": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
-      "source": "The Register",
-      "snippet": "Rogue AI or nation-state hackers would be preferable to the amount of technical debt the past week of wobbling services laid bare",
-      "published_at": "Mon, 23 Nov 2026 14:04:00 +0000",
-      "category": "Outages & Layoffs"
-    },
-    {
-      "title": "Trump says he won't allow US companies to build datacenters abroad",
-      "url": "https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640",
-      "source": "The Register",
-      "snippet": "President threatens 'tremendous tax' on overseas builds, but analysts question how restrictions would work",
-      "published_at": "Mon, 23 Nov 2026 13:40:00 +0000",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "Ars Technica",
+      "snippet": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "published_at": "Tue, 24 Nov 2026 12:30:05 +0000",
       "category": "Hyperscalers & Deals"
     },
     {
@@ -307,14 +315,6 @@ window.__AI_PULSE_DATA__ = {
       "snippet": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
       "published_at": "Tue, 17 Nov 2026 14:00:29 +0000",
       "category": "Models & Open-Weights"
-    },
-    {
-      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
-      "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-      "source": "Ars Technica",
-      "snippet": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "published_at": "Mon, 16 Nov 2026 20:37:47 +0000",
-      "category": "Models & Open-Weights"
     }
   ],
   "mf_navs": [
@@ -324,15 +324,13 @@ window.__AI_PULSE_DATA__ = {
       "short_name": "PPFAS Flexi Cap",
       "weight_pct": 30,
       "exposure": "Global Big Tech (~15% Alphabet/Microsoft/Meta/Amazon) + Indian Value + ~15-20% Cash buffer",
-      "nav": 95.4585,
-      "nav_date": "20-11-2026",
-      "change_1d_pct": 0.81,
-      "change_30d_pct": 6.13,
+      "nav": 95.7601,
+      "nav_date": "25-11-2026",
+      "change_1d_pct": 0.88,
+      "change_30d_pct": 7.63,
       "status": "LIVE",
       "official_name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
       "spark": [
-        89.9443,
-        89.4088,
         88.9695,
         89.3,
         89.2762,
@@ -352,7 +350,9 @@ window.__AI_PULSE_DATA__ = {
         94.289,
         94.1452,
         94.6945,
-        95.4585
+        95.4585,
+        94.9255,
+        95.7601
       ]
     },
     {
@@ -361,16 +361,13 @@ window.__AI_PULSE_DATA__ = {
       "short_name": "MO Nifty 500",
       "weight_pct": 40,
       "exposure": "Broad 500-stock Indian market core (Banking, IT, Infra, Manufacturing)",
-      "nav": 28.1935,
-      "nav_date": "20-11-2026",
-      "change_1d_pct": 0.8,
-      "change_30d_pct": 10.37,
+      "nav": 28.1907,
+      "nav_date": "26-11-2026",
+      "change_1d_pct": 0.25,
+      "change_30d_pct": 11.52,
       "status": "LIVE",
       "official_name": "Motilal Oswal Nifty 500 Index Fund - Direct Plan - Growth",
       "spark": [
-        25.5451,
-        25.3798,
-        25.0677,
         25.2789,
         25.4265,
         25.418,
@@ -389,7 +386,10 @@ window.__AI_PULSE_DATA__ = {
         27.8809,
         27.6564,
         27.9685,
-        28.1935
+        28.1935,
+        27.7949,
+        28.1192,
+        28.1907
       ]
     },
     {
@@ -398,15 +398,13 @@ window.__AI_PULSE_DATA__ = {
       "short_name": "Edelweiss Mid Cap",
       "weight_pct": 30,
       "exposure": "High-growth Indian mid-caps (higher volatility, best accumulated during dips)",
-      "nav": 127.026,
-      "nav_date": "23-11-2026",
-      "change_1d_pct": -0.84,
-      "change_30d_pct": 7.17,
+      "nav": 127.652,
+      "nav_date": "26-11-2026",
+      "change_1d_pct": 0.29,
+      "change_30d_pct": 8.88,
       "status": "LIVE",
       "official_name": "Edelweiss Mid Cap Fund - Direct Plan - Growth",
       "spark": [
-        118.526,
-        116.16,
         117.242,
         118.829,
         119.089,
@@ -426,7 +424,9 @@ window.__AI_PULSE_DATA__ = {
         126.231,
         127.404,
         128.097,
-        127.026
+        127.026,
+        127.279,
+        127.652
       ]
     }
   ],
@@ -435,9 +435,9 @@ window.__AI_PULSE_DATA__ = {
       "symbol": "NVDA",
       "label": "Nvidia",
       "region": "US AI Chips",
-      "price": 165.05,
-      "change_1d_pct": 31.48,
-      "change_30d_pct": -23.59,
+      "price": 149.3,
+      "change_1d_pct": -3.91,
+      "change_30d_pct": -30.88,
       "status": "LIVE",
       "spark": [
         216.0,
@@ -460,16 +460,18 @@ window.__AI_PULSE_DATA__ = {
         150.96,
         145.98,
         125.53,
-        165.05
+        165.05,
+        155.38,
+        149.3
       ]
     },
     {
       "symbol": "MSFT",
       "label": "Microsoft",
       "region": "US Cloud/AI",
-      "price": 492.5,
-      "change_1d_pct": 1.65,
-      "change_30d_pct": -7.53,
+      "price": 489.93,
+      "change_1d_pct": -1.25,
+      "change_30d_pct": -8.01,
       "status": "LIVE",
       "spark": [
         532.6,
@@ -492,16 +494,18 @@ window.__AI_PULSE_DATA__ = {
         508.29,
         498.3,
         484.52,
-        492.5
+        492.5,
+        496.13,
+        489.93
       ]
     },
     {
       "symbol": "ORCL",
       "label": "Oracle",
       "region": "US Infra/OCI",
-      "price": 113.68,
-      "change_1d_pct": 12.34,
-      "change_30d_pct": -9.82,
+      "price": 103.88,
+      "change_1d_pct": -5.13,
+      "change_30d_pct": -17.59,
       "status": "LIVE",
       "spark": [
         126.06,
@@ -524,16 +528,18 @@ window.__AI_PULSE_DATA__ = {
         113.89,
         110.57,
         101.19,
-        113.68
+        113.68,
+        109.5,
+        103.88
       ]
     },
     {
       "symbol": "GOOGL",
       "label": "Alphabet",
       "region": "US AI/PPFAS",
-      "price": 282.1,
-      "change_1d_pct": 6.34,
-      "change_30d_pct": -10.95,
+      "price": 273.1,
+      "change_1d_pct": -2.13,
+      "change_30d_pct": -13.79,
       "status": "LIVE",
       "spark": [
         316.8,
@@ -556,16 +562,18 @@ window.__AI_PULSE_DATA__ = {
         282.44,
         272.66,
         265.29,
-        282.1
+        282.1,
+        279.05,
+        273.1
       ]
     },
     {
       "symbol": "META",
       "label": "Meta",
       "region": "US Open-AI",
-      "price": 597.6,
-      "change_1d_pct": 6.55,
-      "change_30d_pct": -5.23,
+      "price": 609.89,
+      "change_1d_pct": 3.4,
+      "change_30d_pct": -3.28,
       "status": "LIVE",
       "spark": [
         630.56,
@@ -588,16 +596,18 @@ window.__AI_PULSE_DATA__ = {
         616.38,
         596.22,
         560.84,
-        597.6
+        597.6,
+        589.82,
+        609.89
       ]
     },
     {
       "symbol": "^NDX",
       "label": "Nasdaq 100",
       "region": "US Tech Index",
-      "price": 26746.1,
-      "change_1d_pct": 6.86,
-      "change_30d_pct": -8.63,
+      "price": 26046.9,
+      "change_1d_pct": -0.64,
+      "change_30d_pct": -11.02,
       "status": "LIVE",
       "spark": [
         29273.4,
@@ -620,19 +630,20 @@ window.__AI_PULSE_DATA__ = {
         27116.26,
         26517.05,
         25028.98,
-        26746.1
+        26746.1,
+        26214.17,
+        26046.9
       ]
     },
     {
       "symbol": "^CNXIT",
       "label": "Nifty IT",
       "region": "India IT",
-      "price": 31322.65,
-      "change_1d_pct": 1.3,
-      "change_30d_pct": -2.1,
+      "price": 32207.55,
+      "change_1d_pct": 1.12,
+      "change_30d_pct": -0.2,
       "status": "LIVE",
       "spark": [
-        31995.5,
         32273.05,
         32189.45,
         31553.4,
@@ -651,19 +662,20 @@ window.__AI_PULSE_DATA__ = {
         31654.1,
         31262.3,
         30919.45,
-        31322.65
+        31322.65,
+        31850.8,
+        32207.55
       ]
     },
     {
       "symbol": "^NSEI",
       "label": "Nifty 50",
       "region": "India Core",
-      "price": 25800.6,
-      "change_1d_pct": 1.12,
-      "change_30d_pct": 14.16,
+      "price": 25819.25,
+      "change_1d_pct": 1.85,
+      "change_30d_pct": 13.48,
       "status": "LIVE",
       "spark": [
-        22600.0,
         22753.2,
         22749.75,
         22698.85,
@@ -682,7 +694,9 @@ window.__AI_PULSE_DATA__ = {
         25387.4,
         25227.95,
         25514.3,
-        25800.6
+        25800.6,
+        25349.65,
+        25819.25
       ]
     }
   ],
@@ -713,10 +727,10 @@ window.__AI_PULSE_DATA__ = {
         "rank": 3,
         "model": "Gemini 4 Neon Xhigh",
         "org": "Google",
-        "elo": 61,
+        "elo": 62,
         "delta": "#3 · $6.44",
         "license": "Proprietary",
-        "note": "AA Intelligence Index 61 · $6.44/task · 1M ctx"
+        "note": "AA Intelligence Index 62 · $6.44/task · 1M ctx"
       },
       {
         "rank": 4,
@@ -760,10 +774,10 @@ window.__AI_PULSE_DATA__ = {
         "rank": 3,
         "model": "Gemini 4 Neon Xhigh",
         "org": "Google",
-        "elo": 61,
+        "elo": 62,
         "delta": "#3 · $6.44",
         "license": "Proprietary",
-        "note": "AA Intelligence Index 61 · $6.44/task · 1M ctx"
+        "note": "AA Intelligence Index 62 · $6.44/task · 1M ctx"
       },
       {
         "rank": 4,
@@ -778,10 +792,10 @@ window.__AI_PULSE_DATA__ = {
         "rank": 5,
         "model": "Kimi K3.1 Pro",
         "org": "Kimi",
-        "elo": 46,
+        "elo": 47,
         "delta": "#12 · $3.68",
         "license": "Open-Weights",
-        "note": "AA Intelligence Index 46 · $3.68/task · 1M ctx"
+        "note": "AA Intelligence Index 47 · $3.68/task · 1M ctx"
       }
     ],
     "open_weights": [
@@ -789,10 +803,10 @@ window.__AI_PULSE_DATA__ = {
         "rank": 1,
         "model": "Kimi K3.1 Pro",
         "org": "Kimi",
-        "elo": 46,
+        "elo": 47,
         "delta": "#12 · $3.68",
         "license": "Open-Weights",
-        "note": "AA Intelligence Index 46 · $3.68/task · 1M ctx"
+        "note": "AA Intelligence Index 47 · $3.68/task · 1M ctx"
       },
       {
         "rank": 2,
@@ -807,10 +821,10 @@ window.__AI_PULSE_DATA__ = {
         "rank": 3,
         "model": "DeepSeek V4.1 Flash 1017 Max",
         "org": "DeepSeek",
-        "elo": 33,
+        "elo": 32,
         "delta": "#19 · $0.60",
         "license": "Open-Weights",
-        "note": "AA Intelligence Index 33 · $0.60/task · 1M ctx"
+        "note": "AA Intelligence Index 32 · $0.60/task · 1M ctx"
       },
       {
         "rank": 4,
